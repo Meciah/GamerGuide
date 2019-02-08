@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="dna.ez.meciah.gamedatabase.AboutActivity"
+    android:background="@drawable/rl2">
+
+    <TextView
+        android:id="@+id/about_text"
+        android:layout_width="wrap_content"
+        android:layout_height="225dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="17dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="53dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="232dp"
+        android:text="As a gamer myself, I've always wanted a quick way to get to guides or tutorials for games I want on my phone. My goal for this app is to help gamers find information or guides on whatever game they want, all in one app. This app is simply a tool to make your life easier. ENJOY :)"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textColor="@color/ic_launcher_background"
+        android:textSize="14sp"
+        android:typeface="monospace"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/about_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"
+        android:text="About Developer"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/ic_launcher_background"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/text_inquires"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="155dp"
+        android:text="Inquires"
+        android:textColor="@color/ic_launcher_background"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="92dp"
+        android:fontFamily="monospace"
+        android:text="EMAIL: meciah8@gmail.com"
+        android:textAllCaps="false"
+        android:textColor="@color/ic_launcher_background"
+        android:textSize="18sp" />
+
+</RelativeLayout>

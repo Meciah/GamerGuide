@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Gamer Guide</string>
+
+    <string-array name="BO4FLink">
+        <item>https://community.callofduty.com/t5/Call-of-Duty-Black-Ops-4-Forum/ct-p/cod-blackops4-forums</item>
+        <item>https://www.reddit.com/r/Blackops4/</item>
+    </string-array>
+    <string-array name="BO4SLink">
+        <item>https://my.callofduty.com/login</item>
+        <item>https://thetrackernetwork.com/</item>
+        <item>http://codcompstats.com/</item>
+        <item>https://cod.tracker.gg/</item>
+    </string-array>
+    <string-array name="ASOFLink">
+        <item>https://www.ign.com/wikis/assassins-creed-odyssey</item>
+        <item>https://www.polygon.com/assassins-creed-odyssey-guide</item>
+        <item>https://gamewith.net/assassins-creed-odyssey/</item>
+    </string-array>
+    <string-array name="BF5GLink">
+        <item>https://www.ign.com/wikis/battlefield-v</item>
+        <item>https://www.ign.com/wikis/battlefield-v/Multiplayer_Tips_and_Tricks</item>
+    </string-array>
+    <string-array name="DS3GLink">
+        <item>https://www.reddit.com/r/darksouls3/</item>
+        <item>https://www.ign.com/wikis/dark-souls-3/</item>
+        <item>https://darksouls3.wiki.fextralife.com/Dark+Souls+3+Wiki</item>
+        <item>https://www.polygon.com/2016/4/12/11412098/dark-souls-3-guide</item>
+        <item>https://darksouls3.wiki.fextralife.com/PvE+Builds</item>
+        <item>https://darksouls3.wiki.fextralife.com/Bosses</item>
+    </string-array>
+    <string-array name="Dest2FLink">
+        <item>https://www.reddit.com/r/destiny2/</item>
+        <item>https://www.trueachievements.com/game/Destiny-2/forum</item>
+        <item>http://forums.planetdestiny.com/</item>
+    </string-array>
+    <string-array name="Dest2GLink">
+        <item>https://www.bungie.net/en/Companion?bru=%252Fen%252FCollections</item>
+        <item>https://www.polygon.com/destiny-2-guide-walkthrough</item>
+        <item>https://www.pcgamesn.com/destiny-2/destiny-2-class-guide</item>
+    </string-array>
+
+
+</resources>
+
