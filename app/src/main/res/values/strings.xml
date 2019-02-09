@@ -38,6 +38,22 @@
         <item>https://www.polygon.com/destiny-2-guide-walkthrough</item>
         <item>https://www.pcgamesn.com/destiny-2/destiny-2-class-guide</item>
     </string-array>
+    <string-array name="Dota2FLink">
+        <item>https://www.reddit.com/r/DotA2/</item>
+        <item>https://steamcommunity.com/app/570/discussions/</item>
+        <item>https://www.joindota.com/en/forums</item>
+        <item>https://www.liquiddota.com/forum/</item>
+        <item>https://www.dotabuff.com/forums/general</item>
+        <item>https://dev.dota2.com/forumdisplay.php?f=1</item>
+    </string-array>
+    <string-array name="Dota2GLink">
+        <item>https://dmarket.com/blog/dota2-guide/</item>
+        <item>https://purgegamers.true.io/g/dota-2-guide/</item>
+        <item>https://dota2.gamepedia.com/Guides</item>
+        <item>http://www.dota2.com/workshop/builds</item>
+        <item>http://www.dota2.com/international/overview/</item>
+        <item>https://www.dotafire.com/</item>
+    </string-array>
 
 
 </resources>

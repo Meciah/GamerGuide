@@ -31,7 +31,6 @@ public class DS3Guides extends AppCompatActivity {
                 String[] links = getResources().getStringArray(R.array.DS3GLink);
                 Uri uri = Uri.parse(links[position]);
                 Intent intent = new Intent(Intent.ACTION_VIEW, uri);
-                //intent.putExtra("key", data[position]);
                 startActivity(intent);
             }
         });

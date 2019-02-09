@@ -13,7 +13,18 @@
         android:roundIcon="@mipmap/app_icon_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Dest2Forums"></activity>
+        <activity
+            android:name=".Dota2Guides"
+            android:parentActivityName=".MainActivity"></activity>
+        <activity
+            android:name=".Dota2Forums"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Dest2Guides"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Dest2Forums"
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".DS3Guides"
             android:parentActivityName=".MainActivity" />

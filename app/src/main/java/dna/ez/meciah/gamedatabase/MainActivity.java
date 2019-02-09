@@ -141,11 +141,7 @@ public class MainActivity extends AppCompatActivity {
         dest2sites.add("Game Site");
         dest2sites.add("Forums");
         dest2sites.add("Guides");
-        dest2sites.add("Reddit");
         dest2sites.add("Destiny Item Manager");
-        dest2sites.add("Companion App");
-        dest2sites.add("Polygon Guide");
-        dest2sites.add("Class Guides");
         List<String> fc5sites = new ArrayList<>();
         fc5sites.add("Game Site");
         fc5sites.add("Reddit");
@@ -266,13 +262,10 @@ public class MainActivity extends AppCompatActivity {
         wowsites.add("Noxxic");
         wowsites.add("GamePedia");
         List<String> dotasites = new ArrayList<>();
-        dotasites.add("Steam Link");
+        dotasites.add("Store Link");
         dotasites.add("Steam Market");
-        dotasites.add("Reddit");
-        dotasites.add("joinDOTA");
-        dotasites.add("DotaBuff");
-        dotasites.add("Liquid Dota");
-        dotasites.add("Dota2World");
+        dotasites.add("Forums and Discussions");
+        dotasites.add("Guides and Hero Builds");
         dotasites.add("Dota2 Gambling/Betting");
         List<String> R6sites = new ArrayList<>();
         R6sites.add("Ubisoft Game Page");

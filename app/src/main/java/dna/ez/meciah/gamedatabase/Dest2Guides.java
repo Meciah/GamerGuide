@@ -1,6 +1,7 @@
 package dna.ez.meciah.gamedatabase;
 
 import android.content.Intent;
+import android.graphics.drawable.ColorDrawable;
 import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -9,26 +10,28 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
-public class BF5guides extends AppCompatActivity {
-
+public class Dest2Guides extends AppCompatActivity {
 
     String[] data;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_bf5guides);
+        setContentView(R.layout.activity_dest2_guides);
         android.support.v7.app.ActionBar ab = getSupportActionBar();
         ab.setDisplayHomeAsUpEnabled(true);
 
-        data = new String[]{"IGN Wiki","Multiplayer Tips and Tricks"};
-        final ListView listView = (ListView)findViewById(R.id.bf5glist);
+        data = new String[]{"Companion App", "Polygon Guide", "Class Guides"};
+        final ListView listView = (ListView) findViewById(R.id.dest2glist);
 
-        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, data);
+        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, R.layout.listviewtextwhite, data);
         listView.setAdapter(adapter);
+        listView.setDivider(new ColorDrawable(0xFFFFFFFF));
+        listView.setDividerHeight(1);
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                String[] links = getResources().getStringArray(R.array.ASOFLink);
+                String[] links = getResources().getStringArray(R.array.Dest2GLink);
                 Uri uri = Uri.parse(links[position]);
                 Intent intent = new Intent(Intent.ACTION_VIEW, uri);
                 startActivity(intent);

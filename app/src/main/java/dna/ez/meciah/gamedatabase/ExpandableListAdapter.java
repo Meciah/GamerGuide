@@ -123,21 +123,10 @@ public class ExpandableListAdapter extends BaseExpandableListAdapter {
                         Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse("https://steamcommunity.com/market/search?appid=570"));
                         context.startActivity(i);
                     } else if (childPosition == 2) {
-                        Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.joindota.com/en/start"));
-                        context.startActivity(i);
+                        context.startActivity(new Intent(context.getApplicationContext(), Dota2Forums.class));
                     } else if (childPosition == 3) {
-                        Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.reddit.com/r/DotA2/"));
-                        context.startActivity(i);
+                        context.startActivity(new Intent(context.getApplicationContext(), Dota2Guides.class));
                     } else if (childPosition == 4) {
-                        Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.dotabuff.com/"));
-                        context.startActivity(i);
-                    } else if (childPosition == 5) {
-                        Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse("https://liquipedia.net/dota2/Main_Page"));
-                        context.startActivity(i);
-                    } else if (childPosition == 6) {
-                        Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.dota2.com/international/overview/"));
-                        context.startActivity(i);
-                    } else if (childPosition == 7) {
                         Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse("https://csbets.org/dota2-betting-sites"));
                         context.startActivity(i);
                     }
@@ -419,19 +408,11 @@ public class ExpandableListAdapter extends BaseExpandableListAdapter {
                         Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.destinythegame.com/"));
                         context.startActivity(i);
                     } else if (childPosition == 1) {
-                        Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.reddit.com/r/destiny2/"));
-                        context.startActivity(i);
+                        context.startActivity(new Intent(context.getApplicationContext(), Dest2Forums.class));
                     } else if (childPosition == 2) {
-                        Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse("https://destinyitemmanager.com/"));
-                        context.startActivity(i);
+                        context.startActivity(new Intent(context.getApplicationContext(), Dest2Guides.class));
                     } else if (childPosition == 3) {
                         Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.bungie.net/en/Companion?bru=%252Fen%252FCollections"));
-                        context.startActivity(i);
-                    } else if (childPosition == 4) {
-                        Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.polygon.com/destiny-2-guide-walkthrough"));
-                        context.startActivity(i);
-                    } else if (childPosition == 5) {
-                        Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.pcgamesn.com/destiny-2/destiny-2-class-guide"));
                         context.startActivity(i);
                     }
                 }
