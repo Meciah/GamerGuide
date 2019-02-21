@@ -54,6 +54,60 @@
         <item>http://www.dota2.com/international/overview/</item>
         <item>https://www.dotafire.com/</item>
     </string-array>
+    <string-array name="fc5gLink">
+        <item>https://www.ign.com/wikis/far-cry-5</item>
+        <item>https://www.polygon.com/far-cry-5-guide</item>
+        <item>https://www.gamerguides.com/far-cry-5/gameplay/introduction/version-history</item>
+        <item>https://www.gamespot.com/gallery/far-cry-5-guide-9-essential-tips-to-know-before-pl/2900-1906/</item>
+    </string-array>
+    <string-array name="fifafLink">
+        <item>https://www.reddit.com/r/FIFA/</item>
+        <item>https://www.polygon.com/far-cry-5-guide</item>
+        <item>https://www.gamerguides.com/far-cry-5/gameplay/introduction/version-history</item>
+        <item>https://www.gamespot.com/gallery/far-cry-5-guide-9-essential-tips-to-know-before-pl/2900-1906/</item>
+    </string-array>
+    <string-array name="fifagLink">
+        <item>https://www.futhead.com/how-to/</item>
+        <item>https://www.fifauteam.com/</item>
+        <item>https://www.usgamer.net/articles/17-01-2019-fifa-19-guide-tips-and-tricks-to-become-the-best-fifa-19-player</item>
+    </string-array>
+    <string-array name="fifasLink">
+        <item>https://www.futhead.com/compare/</item>
+        <item>https://www.futwiz.com/en/gamestats</item>
+        <item>https://www.usgamer.net/articles/17-01-2019-fifa-19-guide-tips-and-tricks-to-become-the-best-fifa-19-player</item>
+        <item>https://www.futbin.com/stats-calculator</item>
+        <item>https://futwatch.com/db/19/index.php</item>
+    </string-array>
+    <string-array name="fortnitefLink">
+        <item>https://www.reddit.com/r/FortNiteBR/</item>
+        <item>https://fortniteintel.com/</item>
+    </string-array>
+    <string-array name="fortnitegLink">
+        <item>https://bestfortnitesettings.com/fortnite-guides/</item>
+        <item>https://progameguides.com/category/fortnite/fortnite-guides/</item>
+        <item>https://gamewith.net/fortnite/</item>
+        <item>https://www.u4gm.com/fortnite</item>
+    </string-array>
+    <string-array name="fortniteLink">
+        <item>https://www.epicgames.com/fortnite/competitive/en-US/home</item>
+        <item>https://fortniteintel.com/esports/</item>
+        <item>https://www.toornament.com/games/fortnite</item>
+        <item>https://fortnite-esports.gamepedia.com/Fortnite_Esports_Wiki</item>
+        <item>https://www.gamersensei.com/games/fortnite-coaching</item>
+        <item>https://www.proboosting.net/fortnite-coaching</item>
+        <item>https://www.elosoar.com/fortnite/coaching/</item>
+    </string-array>
+    <string-array name="gowfLink">
+        <item>https://www.reddit.com/r/FIFA/</item>
+        <item>https://www.polygon.com/far-cry-5-guide</item>
+        <item>https://www.gamerguides.com/far-cry-5/gameplay/introduction/version-history</item>
+        <item>https://www.gamespot.com/gallery/far-cry-5-guide-9-essential-tips-to-know-before-pl/2900-1906/</item>
+    </string-array>
+    <string-array name="gowgLink">
+        <item>https://www.futhead.com/how-to/</item>
+        <item>https://www.fifauteam.com/</item>
+        <item>https://www.usgamer.net/articles/17-01-2019-fifa-19-guide-tips-and-tricks-to-become-the-best-fifa-19-player</item>
+    </string-array>
 
 
 </resources>

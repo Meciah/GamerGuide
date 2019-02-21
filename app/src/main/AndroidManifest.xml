@@ -13,9 +13,32 @@
         android:roundIcon="@mipmap/app_icon_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".GOWGuides"></activity>
+        <activity android:name=".GOWForums" />
+        <activity
+            android:name=".FortniteEsports"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".FortniteGuides"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".FortniteForums"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".FifaStats"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".FifaGuides"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".FifaForums"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".FarCryGuides"
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".Dota2Guides"
-            android:parentActivityName=".MainActivity"></activity>
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".Dota2Forums"
             android:parentActivityName=".MainActivity" />

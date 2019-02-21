@@ -136,20 +136,11 @@ public class ExpandableListAdapter extends BaseExpandableListAdapter {
                         Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.easports.com/fifa"));
                         context.startActivity(i);
                     } else if (childPosition == 1) {
-                        Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.reddit.com/r/FIFA/"));
-                        context.startActivity(i);
+                        context.startActivity(new Intent(context.getApplicationContext(), FifaForums.class));
                     } else if (childPosition == 2) {
-                        Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.futwiz.com/en/"));
-                        context.startActivity(i);
+                        context.startActivity(new Intent(context.getApplicationContext(), FifaGuides.class));
                     } else if (childPosition == 3) {
-                        Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse("https://futchief.com/"));
-                        context.startActivity(i);
-                    } else if (childPosition == 4) {
-                        Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.futbin.com/"));
-                        context.startActivity(i);
-                    } else if (childPosition == 5) {
-                        Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.futhead.com/"));
-                        context.startActivity(i);
+                        context.startActivity(new Intent(context.getApplicationContext(), FifaStats.class));
                     }
                 }
                 if (groupPosition == 9) {
@@ -157,25 +148,13 @@ public class ExpandableListAdapter extends BaseExpandableListAdapter {
                         Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.epicgames.com/fortnite/en-US/home"));
                         context.startActivity(i);
                     } else if (childPosition == 1) {
-                        Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.reddit.com/r/FortNiteBR/"));
-                        context.startActivity(i);
+                        context.startActivity(new Intent(context.getApplicationContext(), FortniteForums.class));
                     } else if (childPosition == 2) {
-                        Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse("https://bestfortnitesettings.com/fortnite-guides/"));
-                        context.startActivity(i);
+                        context.startActivity(new Intent(context.getApplicationContext(), FortniteGuides.class));
                     } else if (childPosition == 3) {
-                        Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse("https://fortniteskins.net/all/"));
-                        context.startActivity(i);
+                        context.startActivity(new Intent(context.getApplicationContext(), FortniteEsports.class));
                     } else if (childPosition == 4) {
-                        Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse("https://fortnitetracker.com/"));
-                        context.startActivity(i);
-                    } else if (childPosition == 5) {
-                        Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse("https://fortniteintel.com/"));
-                        context.startActivity(i);
-                    } else if (childPosition == 6) {
-                        Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.u4gm.com/fortnite"));
-                        context.startActivity(i);
-                    } else if (childPosition == 7) {
-                        Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.gamersensei.com/senseis/searches?sort_by=relevance&game=fortnite&page=1"));
+                        Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse("https://skin-tracker.com/fortnite/skins"));
                         context.startActivity(i);
                     }
                 }
@@ -424,17 +403,7 @@ public class ExpandableListAdapter extends BaseExpandableListAdapter {
                         Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.reddit.com/r/farcry/"));
                         context.startActivity(i);
                     } else if (childPosition == 2) {
-                        Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.ign.com/wikis/far-cry-5"));
-                        context.startActivity(i);
-                    } else if (childPosition == 3) {
-                        Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.polygon.com/far-cry-5-guide"));
-                        context.startActivity(i);
-                    } else if (childPosition == 4) {
-                        Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.gamerguides.com/far-cry-5/gameplay/introduction/version-history"));
-                        context.startActivity(i);
-                    } else if (childPosition == 5) {
-                        Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.gamespot.com/gallery/far-cry-5-guide-9-essential-tips-to-know-before-pl/2900-1906/"));
-                        context.startActivity(i);
+                        context.startActivity(new Intent(context.getApplicationContext(), FarCryGuides.class));
                     }
                 }
                 if (groupPosition == 10) {

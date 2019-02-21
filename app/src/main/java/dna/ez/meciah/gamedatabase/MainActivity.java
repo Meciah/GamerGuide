@@ -145,10 +145,7 @@ public class MainActivity extends AppCompatActivity {
         List<String> fc5sites = new ArrayList<>();
         fc5sites.add("Game Site");
         fc5sites.add("Reddit");
-        fc5sites.add("IGN Wiki");
-        fc5sites.add("Polygon Guide");
-        fc5sites.add("Gameplay Guides");
-        fc5sites.add("Beginner Tips and Tricks");
+        fc5sites.add("Guides");
         List<String> gowsites = new ArrayList<>();
         gowsites.add("Game Site");
         gowsites.add("Reddit");
@@ -229,13 +226,10 @@ public class MainActivity extends AppCompatActivity {
 
         List<String> fortsites = new ArrayList<>();
         fortsites.add("Epic Games");
-        fortsites.add("Reddit");
+        fortsites.add("Forums and Discussions");
         fortsites.add("Guides");
-        fortsites.add("Fornite Skins");
-        fortsites.add("Fortnite Tracker");
-        fortsites.add("FortniteIntel");
-        fortsites.add("U4GM");
-        fortsites.add("GamerSensei");
+        fortsites.add("Tournaments and Coaching");
+        fortsites.add("Fortnite Skins");
 
         List<String> pubgsites = new ArrayList<>();
         pubgsites.add("Game Site");
@@ -285,11 +279,10 @@ public class MainActivity extends AppCompatActivity {
         mcsites.add("Learn to Mod");
         List<String> fifasites = new ArrayList<>();
         fifasites.add("EA Game Link");
-        fifasites.add("Reddit");
-        fifasites.add("FUTWIZ");
-        fifasites.add("FUTCHIEF");
-        fifasites.add("FUTBIN");
-        fifasites.add("FURHead");
+        fifasites.add("Forums and Discussions");
+        fifasites.add("FUT Guides");
+        fifasites.add("FUT Stat Tracking");
+
         List<String> smashsites = new ArrayList<>();
         smashsites.add("Game Site");
         smashsites.add("Reddit");
