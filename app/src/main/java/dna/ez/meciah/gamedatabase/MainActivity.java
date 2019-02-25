@@ -157,11 +157,8 @@ public class MainActivity extends AppCompatActivity {
         gtavsites.add("Multiplayer Guides");
         List<String> mad19sites = new ArrayList<>();
         mad19sites.add("Game Site");
-        mad19sites.add("Reddit");
-        mad19sites.add("Madden School");
-        mad19sites.add("Ultimate Team Guide");
-        mad19sites.add("Ultimate Team Builing Guide");
-        mad19sites.add("IGN Wiki");
+        mad19sites.add("Forums and Discussions");
+        mad19sites.add("Gameplay and Ultimate Team Guides");
         List<String> nhl19sites = new ArrayList<>();
         nhl19sites.add("Game Site");
         nhl19sites.add("Reddit");
@@ -258,11 +255,9 @@ public class MainActivity extends AppCompatActivity {
         bo4sites.add("Track your BO4 Stats");
         List<String> mcsites = new ArrayList<>();
         mcsites.add("Mojang Site");
-        mcsites.add("Reddit");
-        mcsites.add("SnapshotMC");
-        mcsites.add("9Minecraft");
-        mcsites.add("MSPE DL");
-        mcsites.add("Learn to Mod");
+        mcsites.add("Forums and Discussions");
+        mcsites.add("Totorials and Guides");
+        mcsites.add("Modding");
         List<String> fifasites = new ArrayList<>();
         fifasites.add("EA Game Link");
         fifasites.add("Forums and Discussions");

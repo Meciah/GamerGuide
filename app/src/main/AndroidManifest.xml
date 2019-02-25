@@ -13,7 +13,12 @@
         android:roundIcon="@mipmap/app_icon_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".LolStats"></activity>
+        <activity android:name=".MinecraftMods"></activity>
+        <activity android:name=".MinecraftGuides" />
+        <activity android:name=".MinecraftForums" />
+        <activity android:name=".MaddenGuides" />
+        <activity android:name=".MaddenForums" />
+        <activity android:name=".LolStats" />
         <activity android:name=".LolGuides" />
         <activity android:name=".LolForums" />
         <activity android:name=".HSGuides" />

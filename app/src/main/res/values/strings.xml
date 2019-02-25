@@ -163,6 +163,41 @@
         <item>https://champion.gg/statistics/?league=platplus</item>
         <item>http://www.lolskill.net/</item>
     </string-array>
+    <string-array name="maddenfLink">
+        <item>https://www.reddit.com/r/Madden/</item>
+        <item>https://forums.ea.com/en/madden-nfl/categories/madden-19</item>
+        <item>https://www.muthead.com/forums</item>
+    </string-array>
+    <string-array name="maddengLink">
+        <item>https://www.ea.com/games/madden-nfl/madden-nfl-19/strategy-guide</item>
+        <item>https://www.madden-school.com/</item>
+        <item>https://www.ign.com/wikis/madden-nfl-19/Tips_&_Tricks</item>
+        <item>https://www.gameinformer.com/the-sports-desk/2018/08/13/the-madden-19-ultimate-team-guide</item>
+        <item>https://gamingbolt.com/madden-nfl-19-mega-guide-farming-coins-leveling-up-ultimate-team-guide-solo-battles-and-more</item>
+    </string-array>
+    <string-array name="mcfLink">
+        <item>https://www.reddit.com/r/Minecraft/</item>
+        <item>https://www.minecraftforum.net/</item>
+        <item>https://www.planetminecraft.com/forums/</item>
+        <item>https://minecraft.gamepedia.com/Minecraft_Forums</item>
+        <item>https://minecraft.curseforge.com/forums</item>
+    </string-array>
+    <string-array name="mcgLink">
+        <item>http://www.minecraft101.net/guides.html</item>
+        <item>http://www.minecraftguides.org/</item>
+        <item>https://www.ign.com/wikis/minecraft/Guides_and_Strategies</item>
+        <item>https://www.minecraft-crafting.net/</item>
+        <item>https://minecraft.gamepedia.com/Tutorials</item>
+        <item>https://minecraft.gamepedia.com/Category:Guides</item>
+    </string-array>
+    <string-array name="mcmLink">
+        <item>https://www.learntomod.com/</item>
+        <item>https://medium.com/@buchananaubrey/a-beginners-guide-to-modding-minecraft-9a42536495f6</item>
+        <item>https://www.minecraftmods.com/</item>
+        <item>https://minecraft.curseforge.com/mc-mods</item>
+        <item>https://www.planetminecraft.com/resources/mods/</item>
+        <item>http://www.9minecraft.net/category/minecraft-mods/</item>
+    </string-array>
 
 
 </resources>

@@ -186,20 +186,11 @@ public class ExpandableListAdapter extends BaseExpandableListAdapter {
                         Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse("https://mojang.com/category/minecraft/"));
                         context.startActivity(i);
                     } else if (childPosition == 1) {
-                        Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.reddit.com/r/Minecraft/"));
-                        context.startActivity(i);
+                        context.startActivity(new Intent(context.getApplicationContext(), MinecraftForums.class));
                     } else if (childPosition == 2) {
-                        Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse("https://snapshotmc.com/"));
-                        context.startActivity(i);
+                        context.startActivity(new Intent(context.getApplicationContext(), MinecraftGuides.class));
                     } else if (childPosition == 3) {
-                        Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.9minecraft.net/"));
-                        context.startActivity(i);
-                    } else if (childPosition == 4) {
-                        Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse("http://mcpedl.com/"));
-                        context.startActivity(i);
-                    } else if (childPosition == 5) {
-                        Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.learntomod.com/"));
-                        context.startActivity(i);
+                        context.startActivity(new Intent(context.getApplicationContext(), MinecraftMods.class));
                     }
                 }
 
@@ -395,20 +386,9 @@ public class ExpandableListAdapter extends BaseExpandableListAdapter {
                         Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.easports.com/madden-nfl"));
                         context.startActivity(i);
                     } else if (childPosition == 1) {
-                        Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.reddit.com/r/Madden/"));
-                        context.startActivity(i);
+                        context.startActivity(new Intent(context.getApplicationContext(), MaddenForums.class));
                     } else if (childPosition == 2) {
-                        Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.madden-school.com/"));
-                        context.startActivity(i);
-                    } else if (childPosition == 3) {
-                        Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.gameinformer.com/the-sports-desk/2018/08/13/the-madden-19-ultimate-team-guide"));
-                        context.startActivity(i);
-                    } else if (childPosition == 4) {
-                        Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.usgamer.net/articles/17-12-2018-madden-19-ultimate-team-guide-player-upgrades/improve-your-team"));
-                        context.startActivity(i);
-                    } else if (childPosition == 5) {
-                        Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.ign.com/wikis/madden-nfl-19/Tips_%26_Tricks"));
-                        context.startActivity(i);
+                        context.startActivity(new Intent(context.getApplicationContext(), MaddenGuides.class));
                     }
                 }
                 if (groupPosition == 17) {
