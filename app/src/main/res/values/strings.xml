@@ -98,15 +98,70 @@
         <item>https://www.elosoar.com/fortnite/coaching/</item>
     </string-array>
     <string-array name="gowfLink">
-        <item>https://www.reddit.com/r/FIFA/</item>
-        <item>https://www.polygon.com/far-cry-5-guide</item>
-        <item>https://www.gamerguides.com/far-cry-5/gameplay/introduction/version-history</item>
-        <item>https://www.gamespot.com/gallery/far-cry-5-guide-9-essential-tips-to-know-before-pl/2900-1906/</item>
+        <item>https://www.reddit.com/r/GodofWar/</item>
+        <item>https://community.playstation.com/content/pdc/us/en_US/pdc-communities/god-of-war-community.html</item>
+        <item>https://gamefaqs.gamespot.com/boards/191627-god-of-war</item>
     </string-array>
     <string-array name="gowgLink">
-        <item>https://www.futhead.com/how-to/</item>
-        <item>https://www.fifauteam.com/</item>
-        <item>https://www.usgamer.net/articles/17-01-2019-fifa-19-guide-tips-and-tricks-to-become-the-best-fifa-19-player</item>
+        <item>https://www.ign.com/wikis/god-of-war-2018</item>
+        <item>https://www.ign.com/wikis/god-of-war-2018/God_of_War_Complete_Walkthrough</item>
+        <item>https://www.polygon.com/guides/2018/4/19/17212904/god-of-war-guide-walkthrough</item>
+        <item>https://www.usgamer.net/articles/12-12-2018-god-of-war-walkthrough-guide-beginners-guide</item>
+    </string-array>
+    <string-array name="gtafLink">
+        <item>https://www.reddit.com/r/GTAV/</item>
+        <item>https://gtaforums.com/forum/239-gta-v/</item>
+        <item>https://steamcommunity.com/app/271590/discussions/</item>
+        <item>https://www.igta5.com/forums/</item>
+    </string-array>
+    <string-array name="gtasgLink">
+        <item>https://www.gtaboom.com/guides/single-player/</item>
+        <item>https://www.ign.com/wikis/gta-5/Walkthrough</item>
+        <item>https://kotaku.com/before-you-start-tips-for-playing-gta-v-1333219413</item>
+    </string-array>
+    <string-array name="gtamgLink">
+        <item>https://www.reddit.com/r/gtaonline/comments/7ohgg5/the_gta_online_mega_guide/</item>
+        <item>https://www.usgamer.net/articles/23-04-2018-gta-online-guide-how-to-play-what-to-do-how-to-earn-money-and-reputation</item>
+        <item>hhttps://www.ign.com/wikis/gta-5/GTA_Online</item>
+        <item>https://www.gamesradar.com/gta-online-tips/</item>
+    </string-array>
+    <string-array name="hsfLink">
+        <item>https://www.reddit.com/r/gtaonline/comments/7ohgg5/the_gta_online_mega_guide/</item>
+        <item>https://www.usgamer.net/articles/23-04-2018-gta-online-guide-how-to-play-what-to-do-how-to-earn-money-and-reputation</item>
+        <item>https://www.ign.com/wikis/gta-5/GTA_Online</item>
+        <item>https://www.gamesradar.com/gta-online-tips/</item>
+    </string-array>
+    <string-array name="hsgLink">
+        <item>https://www.hearthstonetopdecks.com/hearthstone-guides/</item>
+        <item>https://www.icy-veins.com/hearthstone/solo-hearthstone-guides</item>
+        <item>https://www.metabomb.net/hearthstone/deck-guides</item>
+        <item>https://www.liquidhearth.com/guides/</item>
+        <item>https://www.hearthpwn.com/decks</item>
+        <item>http://wildhs.com/</item>
+        <item>https://www.vicioussyndicate.com/</item>
+    </string-array>
+    <string-array name="lolfLink">
+        <item>https://www.reddit.com/r/leagueoflegends/</item>
+        <item>http://forums.na.leagueoflegends.com/board/</item>
+        <item>https://www.mobafire.com/league-of-legends/forum</item>
+    </string-array>
+    <string-array name="lolgLink">
+        <item>https://www.mobafire.com/</item>
+        <item>https://champion.gg/</item>
+        <item>https://www.probuilds.net/</item>
+        <item>https://rankedboost.com/category/lol/</item>
+        <item>http://www.op.gg/champion/ornn/statistics/top/trend</item>
+        <item>https://mobalytics.gg/guides-and-infographics/</item>
+        <item>https://u.gg/</item>
+    </string-array>
+    <string-array name="lolsLink">
+        <item>https://www.op.gg/summoner/userName=</item>
+        <item>https://lolprofile.net/</item>
+        <item>https://lol.mobalytics.gg/</item>
+        <item>https://www.leagueofgraphs.com/</item>
+        <item>https://www.leaguespy.net/</item>
+        <item>https://champion.gg/statistics/?league=platplus</item>
+        <item>http://www.lolskill.net/</item>
     </string-array>
 
 

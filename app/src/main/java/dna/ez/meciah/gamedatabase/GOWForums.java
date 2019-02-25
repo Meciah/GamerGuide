@@ -21,7 +21,7 @@ public class GOWForums extends AppCompatActivity {
         android.support.v7.app.ActionBar ab = getSupportActionBar();
         ab.setDisplayHomeAsUpEnabled(true);
 
-        data = new String[]{"Pro Fortnite Settings","Pro Game Guides","Gamewith", "U4GM"};
+        data = new String[]{"Reddit","PLaystation Forums","GameFaqs"};
         final ListView listView = (ListView) findViewById(R.id.gowflist);
 
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, R.layout.custom_textview, data);

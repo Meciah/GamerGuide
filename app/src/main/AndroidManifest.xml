@@ -13,8 +13,26 @@
         android:roundIcon="@mipmap/app_icon_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".GOWGuides"></activity>
-        <activity android:name=".GOWForums" />
+        <activity android:name=".LolStats"></activity>
+        <activity android:name=".LolGuides" />
+        <activity android:name=".LolForums" />
+        <activity android:name=".HSGuides" />
+        <activity android:name=".HSForums" />
+        <activity
+            android:name=".GTAMGuides"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".GTASGuides"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".GTAForums"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".GOWGuides"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".GOWForums"
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".FortniteEsports"
             android:parentActivityName=".MainActivity" />

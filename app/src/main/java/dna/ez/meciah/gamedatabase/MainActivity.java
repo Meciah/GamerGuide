@@ -148,17 +148,13 @@ public class MainActivity extends AppCompatActivity {
         fc5sites.add("Guides");
         List<String> gowsites = new ArrayList<>();
         gowsites.add("Game Site");
-        gowsites.add("Reddit");
-        gowsites.add("IGN Wiki");
-        gowsites.add("Complete  Walkthrough");
-        gowsites.add("Polygon Guide");
+        gowsites.add("Forums and Discussions");
+        gowsites.add("Gameplay Guides");
         List<String> gtavsites = new ArrayList<>();
         gtavsites.add("Steam Link");
-        gtavsites.add("Reddit");
-        gtavsites.add("IGN Wiki");
-        gtavsites.add("Mega Guide");
+        gtavsites.add("Forums and Discussions");
+        gtavsites.add("Singleplayer Guides");
         gtavsites.add("Multiplayer Guides");
-        gtavsites.add("Walkthrough");
         List<String> mad19sites = new ArrayList<>();
         mad19sites.add("Game Site");
         mad19sites.add("Reddit");
@@ -209,19 +205,11 @@ public class MainActivity extends AppCompatActivity {
         RLsites.add("Buy RocketLeague Items");
 
         List<String> lolsites = new ArrayList<>();
-        lolsites.add("Reddit");
-        lolsites.add("Home Site");
-        lolsites.add("Champion.gg");
-        lolsites.add("MobaFire");
-        lolsites.add("LolCounter");
-        lolsites.add("ProBuilds");
-        lolsites.add("LoL ModelViewer");
-        lolsites.add("LoL Esports");
-        lolsites.add("LeaguePedia");
-        lolsites.add("LoL Skill");
-        lolsites.add("GosuGamers");
-        lolsites.add("NerfPlz");
-        lolsites.add("LeagueofGraphs");
+        lolsites.add("Game Site");
+        lolsites.add("Forums and Discussions");
+        lolsites.add("Champion and Build Guides");
+        lolsites.add("Stat Tracking");
+
 
 
         List<String> fortsites = new ArrayList<>();
@@ -239,10 +227,8 @@ public class MainActivity extends AppCompatActivity {
 
         List<String> hssites = new ArrayList<>();
         hssites.add("Game Site");
-        hssites.add("Reddit");
-        hssites.add("HearthPwn");
-        hssites.add("HS Replay");
-        hssites.add("ViciousSyndicate");
+        hssites.add("Forums and Dicussions");
+        hssites.add("Class and Build Guides");
         List<String> owsites = new ArrayList<>();
         owsites.add("Game Site");
         owsites.add("Reddit");

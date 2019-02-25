@@ -4,11 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".GOWForums"
-    android:background="@drawable/gow">
+    tools:context=".GTAMGuides"
+    android:background="@drawable/gta">
 
     <ListView
-        android:id="@+id/gowflist"
+        android:id="@+id/gtamglist"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:minHeight="?android:attr/listPreferredItemHeightLarge"
@@ -29,7 +29,7 @@
         android:layout_marginStart="7dp"
         android:layout_marginTop="247dp"
         android:fontFamily="sans-serif-medium"
-        android:text="Forums and Discussions"
+        android:text="Multiplayer Guides and Walkthroughs"
         android:textColor="@color/darkColorPrimary"
         android:textSize="24sp"
         android:textStyle="bold"

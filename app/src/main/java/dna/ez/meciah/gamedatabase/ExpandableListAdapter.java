@@ -163,60 +163,22 @@ public class ExpandableListAdapter extends BaseExpandableListAdapter {
                         Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse("https://playhearthstone.com/en-us/"));
                         context.startActivity(i);
                     } else if (childPosition == 1) {
-                        Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.reddit.com/r/hearthstone/"));
-                        context.startActivity(i);
+                        context.startActivity(new Intent(context.getApplicationContext(), HSForums.class));
                     } else if (childPosition == 2) {
-                        Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.hearthpwn.com/"));
-                        context.startActivity(i);
-                    } else if (childPosition == 3) {
-                        Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse("https://hsreplay.net/"));
-                        context.startActivity(i);
-                    } else if (childPosition == 4) {
-                        Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.vicioussyndicate.com/"));
-                        context.startActivity(i);
+                        context.startActivity(new Intent(context.getApplicationContext(), HSGuides.class));
                     }
                 }
 
                 if (groupPosition == 13) {
                     if (childPosition == 0) {
-                        Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.reddit.com/r/leagueoflegends/"));
+                        Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse("https://leagueoflegends.com/"));
                         context.startActivity(i);
                     } else if (childPosition == 1) {
-                        Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse("https://na.leagueoflegends.com/en/"));
-                        context.startActivity(i);
+                        context.startActivity(new Intent(context.getApplicationContext(), LolForums.class));
                     } else if (childPosition == 2) {
-                        Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse("https://champion.gg/"));
-                        context.startActivity(i);
+                        context.startActivity(new Intent(context.getApplicationContext(), LolGuides.class));
                     } else if (childPosition == 3) {
-                        Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.mobafire.com/"));
-                        context.startActivity(i);
-                    } else if (childPosition == 4) {
-                        Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse("https://lolcounter.com/"));
-                        context.startActivity(i);
-                    } else if (childPosition == 5) {
-                        Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse("https://probuilds.net/"));
-                        context.startActivity(i);
-                    } else if (childPosition == 6) {
-                        Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.fanbyte.com/features/league-of-legends-model-viewer/#W1swLDAsMCwiMjY2IiwwLDBdXQ=="));
-                        context.startActivity(i);
-                    } else if (childPosition == 7) {
-                        Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.lolesports.com/en_US/"));
-                        context.startActivity(i);
-                    } else if (childPosition == 8) {
-                        Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse("https://lol.gamepedia.com/League_of_Legends_Esports_Wiki"));
-                        context.startActivity(i);
-                    } else if (childPosition == 9) {
-                        Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.lolskill.net/"));
-                        context.startActivity(i);
-                    } else if (childPosition == 10) {
-                        Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.surrenderat20.net/"));
-                        context.startActivity(i);
-                    } else if (childPosition == 11) {
-                        Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.nerfplz.com/"));
-                        context.startActivity(i);
-                    } else if (childPosition == 12) {
-                        Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.leagueofgraphs.com/"));
-                        context.startActivity(i);
+                        context.startActivity(new Intent(context.getApplicationContext(), LolStats.class));
                     }
                 }
                 if (groupPosition == 15) {
@@ -411,17 +373,9 @@ public class ExpandableListAdapter extends BaseExpandableListAdapter {
                         Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse("https://godofwar.playstation.com/"));
                         context.startActivity(i);
                     } else if (childPosition == 1) {
-                        Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.reddit.com/r/GodofWar/"));
-                        context.startActivity(i);
+                        context.startActivity(new Intent(context.getApplicationContext(), GOWForums.class));
                     } else if (childPosition == 2) {
-                        Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.ign.com/wikis/god-of-war-2018"));
-                        context.startActivity(i);
-                    } else if (childPosition == 3) {
-                        Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.ign.com/wikis/god-of-war-2018/God_of_War_Complete_Walkthrough"));
-                        context.startActivity(i);
-                    } else if (childPosition == 4) {
-                        Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.polygon.com/guides/2018/4/19/17212904/god-of-war-guide-walkthrough"));
-                        context.startActivity(i);
+                        context.startActivity(new Intent(context.getApplicationContext(), GOWGuides.class));
                     }
                 }
                 if (groupPosition == 11) {
@@ -429,20 +383,11 @@ public class ExpandableListAdapter extends BaseExpandableListAdapter {
                         Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse("https://store.steampowered.com/app/271590/Grand_Theft_Auto_V/"));
                         context.startActivity(i);
                     } else if (childPosition == 1) {
-                        Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.reddit.com/r/GTAV/"));
-                        context.startActivity(i);
+                        context.startActivity(new Intent(context.getApplicationContext(), GTAForums.class));
                     } else if (childPosition == 2) {
-                        Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.ign.com/wikis/gta-5"));
-                        context.startActivity(i);
+                        context.startActivity(new Intent(context.getApplicationContext(), GTASGuides.class));
                     } else if (childPosition == 3) {
-                        Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.reddit.com/r/gtaonline/comments/7ohgg5/the_gta_online_mega_guide/"));
-                        context.startActivity(i);
-                    } else if (childPosition == 4) {
-                        Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.igta5.com/multiplayer"));
-                        context.startActivity(i);
-                    } else if (childPosition == 5) {
-                        Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.ign.com/wikis/gta-5/Walkthrough"));
-                        context.startActivity(i);
+                        context.startActivity(new Intent(context.getApplicationContext(), GTAMGuides.class));
                     }
                 }
                 if (groupPosition == 14) {

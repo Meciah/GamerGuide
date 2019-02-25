@@ -10,28 +10,28 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
-public class GOWGuides extends AppCompatActivity {
+public class LolForums extends AppCompatActivity {
 
     String[] data;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_gowguides);
+        setContentView(R.layout.activity_lol_forums);
         android.support.v7.app.ActionBar ab = getSupportActionBar();
         ab.setDisplayHomeAsUpEnabled(true);
 
-        data = new String[]{"IGN Wiki","IGN Walkthrough","Polygon Guides", "USGamer"};
-        final ListView listView = (ListView) findViewById(R.id.gowglist);
+        data = new String[]{"Reddit", "League of Legends Forums", "Mobafire Forums"};
+        final ListView listView = (ListView) findViewById(R.id.lolflist);
 
-        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, R.layout.custom_textview, data);
+        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, R.layout.listviewtextwhite, data);
         listView.setAdapter(adapter);
         listView.setDivider(new ColorDrawable(0xFFFFFFFF));
         listView.setDividerHeight(1);
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                String[] links = getResources().getStringArray(R.array.gowgLink);
+                String[] links = getResources().getStringArray(R.array.lolfLink);
                 Uri uri = Uri.parse(links[position]);
                 Intent intent = new Intent(Intent.ACTION_VIEW, uri);
                 startActivity(intent);

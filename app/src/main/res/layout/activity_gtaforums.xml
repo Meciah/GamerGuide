@@ -4,11 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".GOWForums"
-    android:background="@drawable/gow">
+    tools:context=".GTAForums"
+    android:background="@drawable/gta">
 
     <ListView
-        android:id="@+id/gowflist"
+        android:id="@+id/gtaflist"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:minHeight="?android:attr/listPreferredItemHeightLarge"
@@ -18,7 +18,6 @@
         android:layout_marginTop="300dp"
         android:layout_marginEnd="0dp"
         android:layout_marginBottom="0dp" />
-
 
     <TextView
         android:id="@+id/lvgheader"
