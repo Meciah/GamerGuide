@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".LolForums"
-    android:background="@drawable/lol">
+    tools:context=".NBAGuides"
+    android:background="@drawable/nba">
 
     <ListView
         android:id="@+id/nbaglist"
@@ -26,10 +26,14 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_marginStart="7dp"
-        android:layout_marginTop="247dp"
+        android:layout_marginTop="260dp"
+        android:shadowColor="#000000"
+        android:shadowDx="1.5"
+        android:shadowDy="1.3"
+        android:shadowRadius="1.6"
         android:fontFamily="sans-serif-medium"
         android:text="Gameplay and MyCareer Guides"
-        android:textColor="@color/darkColorPrimary"
+        android:textColor="#FFFFF2"
         android:textSize="24sp"
         android:textStyle="bold"
         android:typeface="serif" />
