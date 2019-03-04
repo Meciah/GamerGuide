@@ -24,7 +24,7 @@ public class FifaForums extends AppCompatActivity {
         data = new String[]{"Reddit"};
         final ListView listView = (ListView) findViewById(R.id.fifaflist);
 
-        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, R.layout.custom_textview, data);
+        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, R.layout.listviewblack, data);
         listView.setAdapter(adapter);
         listView.setDivider(new ColorDrawable(0xFFFFFFFF));
         listView.setDividerHeight(1);

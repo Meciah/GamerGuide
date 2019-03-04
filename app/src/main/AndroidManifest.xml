@@ -13,16 +13,105 @@
         android:roundIcon="@mipmap/app_icon_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MinecraftMods"></activity>
-        <activity android:name=".MinecraftGuides" />
-        <activity android:name=".MinecraftForums" />
-        <activity android:name=".MaddenGuides" />
-        <activity android:name=".MaddenForums" />
-        <activity android:name=".LolStats" />
-        <activity android:name=".LolGuides" />
-        <activity android:name=".LolForums" />
-        <activity android:name=".HSGuides" />
-        <activity android:name=".HSForums" />
+        <activity
+            android:name=".WowGuides"
+            android:parentActivityName=".MainActivity"></activity>
+        <activity
+            android:name=".WowForums"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".SmashGuides"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".SmashForums"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".RocketTrades"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".RocketGuides"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".RocketForums"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ApexStats"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ApexGuides"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ApexForums"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".RDMG"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".RDSG"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".RDForums"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".R6Stats"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".R6Guides"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".R6Forums"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".OWStats"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".OWGuides"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".OWForums"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".PUBGGuides"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".PUBGForums"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".NBAGuides"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".NBAForums"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".MinecraftMods"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".MinecraftGuides"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".MinecraftForums"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".MaddenGuides"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".MaddenForums"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".LolStats"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".LolGuides"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".LolForums"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".HSGuides"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".HSForums"
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".GTAMGuides"
             android:parentActivityName=".MainActivity" />

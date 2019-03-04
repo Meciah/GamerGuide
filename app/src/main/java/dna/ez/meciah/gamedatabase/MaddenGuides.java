@@ -17,12 +17,12 @@ public class MaddenGuides extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_lol_forums);
+        setContentView(R.layout.activity_madden_guides);
         android.support.v7.app.ActionBar ab = getSupportActionBar();
         ab.setDisplayHomeAsUpEnabled(true);
 
         data = new String[]{"EA Strategy Guide", "Madden School", "IGN Wiki", "Ultimate Team Guide", "Mega Guide"};
-        final ListView listView = (ListView) findViewById(R.id.lolflist);
+        final ListView listView = (ListView) findViewById(R.id.maddenglist);
 
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, R.layout.listviewtextwhite, data);
         listView.setAdapter(adapter);
@@ -31,7 +31,7 @@ public class MaddenGuides extends AppCompatActivity {
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                String[] links = getResources().getStringArray(R.array.lolfLink);
+                String[] links = getResources().getStringArray(R.array.maddengLink);
                 Uri uri = Uri.parse(links[position]);
                 Intent intent = new Intent(Intent.ACTION_VIEW, uri);
                 startActivity(intent);

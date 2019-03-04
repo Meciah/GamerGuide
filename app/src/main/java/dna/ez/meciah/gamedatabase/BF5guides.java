@@ -23,7 +23,7 @@ public class BF5guides extends AppCompatActivity {
         data = new String[]{"IGN Wiki","Multiplayer Tips and Tricks"};
         final ListView listView = (ListView)findViewById(R.id.bf5glist);
 
-        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, data);
+        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, R.layout.listviewblack, data);
         listView.setAdapter(adapter);
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override

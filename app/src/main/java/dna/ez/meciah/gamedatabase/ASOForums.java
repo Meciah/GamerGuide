@@ -40,7 +40,6 @@ public class ASOForums extends AppCompatActivity {
                 String[] links = getResources().getStringArray(R.array.ASOFLink);
                 Uri uri = Uri.parse(links[position]);
                 Intent intent = new Intent(Intent.ACTION_VIEW, uri);
-                //intent.putExtra("key", data[position]);
                 startActivity(intent);
             }
         });

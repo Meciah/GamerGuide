@@ -24,9 +24,9 @@ public class BO4Forum extends AppCompatActivity {
         data = new String[]{"Community Forums", "Reddit"};
         final ListView listView = (ListView)findViewById(R.id.bo4flist);
 
-        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, R.layout.listviewtextwhite, data);
+        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, R.layout.custom_textview, data);
         listView.setAdapter(adapter);
-        listView.setDivider(new ColorDrawable(0xFFFFFFFF));
+        listView.setDivider(new ColorDrawable(0xFFFF0000));
         listView.setDividerHeight(1);
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override

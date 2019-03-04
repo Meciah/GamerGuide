@@ -98,6 +98,7 @@ public class MainActivity extends AppCompatActivity {
         listDataHeader = new ArrayList<>();
         listhash = new HashMap<>();
 
+        listDataHeader.add("Apex Legends");
         listDataHeader.add("Assasins Creed Odyssey");
         listDataHeader.add("Battlefield V");
         listDataHeader.add("Call of Duty BO4");
@@ -115,17 +116,20 @@ public class MainActivity extends AppCompatActivity {
         listDataHeader.add("Madden 2019");
         listDataHeader.add("Minecraft");
         listDataHeader.add("NBA 2019");
-        listDataHeader.add("NHL 2019");
         listDataHeader.add("PUBG");
         listDataHeader.add("Overwatch");
         listDataHeader.add("Rainbow 6 Seige");
         listDataHeader.add("Red Dead Redemption II");
         listDataHeader.add("RocketLeague");
         listDataHeader.add("SmashUltimate");
-        listDataHeader.add("Super Mario Odyssey");
-        listDataHeader.add("Warframe");
         listDataHeader.add("World of Warcraft");
 
+
+        List<String> apexsites = new ArrayList<>();
+        apexsites.add("Game Site");
+        apexsites.add("Forums");
+        apexsites.add("Guides");
+        apexsites.add("Stat Tracking");
         List<String> asosites = new ArrayList<>();
         asosites.add("Game Site");
         asosites.add("Reddit");
@@ -166,28 +170,13 @@ public class MainActivity extends AppCompatActivity {
         nhl19sites.add("Complete Strategy Guide");
         List<String> nba19sites = new ArrayList<>();
         nba19sites.add("Game Site");
-        nba19sites.add("Reddit");
-        nba19sites.add("Beginner's Guide");
-        nba19sites.add("Scoring Guide");
-        nba19sites.add("Mega Guide");
+        nba19sites.add("Forums and Discussions");
+        nba19sites.add("Guides");
         List<String> reddeadsites = new ArrayList<>();
         reddeadsites.add("Game Site");
-        reddeadsites.add("Reddit");
-        reddeadsites.add("IGN Wiki");
-        reddeadsites.add("Beginner's Guide");
-        reddeadsites.add("Multiplayer Guide");
-        List<String> smosites = new ArrayList<>();
-        smosites.add("Game Site");
-        smosites.add("Reddit");
-        smosites.add("IGN Wiki");
-        smosites.add("Polygon Guide");
-        List<String> warframesites = new ArrayList<>();
-        warframesites.add("Game Site");
-        warframesites.add("Reddit");
-        warframesites.add("Beginner's Guide");
-        warframesites.add("Track Stats");
-        warframesites.add("Nexus Stats");
-
+        reddeadsites.add("Forums and Discussions");
+        reddeadsites.add("Singleplayer Guides");
+        reddeadsites.add("Multiplayer Guides");
 
         List<String> csgosites = new ArrayList<>();
         csgosites.add("Reddit");
@@ -195,19 +184,15 @@ public class MainActivity extends AppCompatActivity {
         csgosites.add("List of All Betting and Trading Sites");
 
         List<String> RLsites = new ArrayList<>();
-        RLsites.add("Reddit");
-        RLsites.add("Official Site");
-        RLsites.add("Price List and Trading");
-        RLsites.add("RL Garage");
-        RLsites.add("Buy RocketLeague Items");
+        RLsites.add("Forums and Discussions");
+        RLsites.add("Guides");
+        RLsites.add("Trading and Prices");
 
         List<String> lolsites = new ArrayList<>();
         lolsites.add("Game Site");
         lolsites.add("Forums and Discussions");
         lolsites.add("Champion and Build Guides");
         lolsites.add("Stat Tracking");
-
-
 
         List<String> fortsites = new ArrayList<>();
         fortsites.add("Epic Games");
@@ -218,46 +203,50 @@ public class MainActivity extends AppCompatActivity {
 
         List<String> pubgsites = new ArrayList<>();
         pubgsites.add("Game Site");
-        pubgsites.add("Reddit");
         pubgsites.add("Steam Market");
+        pubgsites.add("Forums and Discussions");
+        pubgsites.add("Guides");
         pubgsites.add("Bet,Trade,Sell PUBG Skins");
 
         List<String> hssites = new ArrayList<>();
         hssites.add("Game Site");
         hssites.add("Forums and Dicussions");
         hssites.add("Class and Build Guides");
+
         List<String> owsites = new ArrayList<>();
         owsites.add("Game Site");
-        owsites.add("Reddit");
-        owsites.add("OverBuff");
-        owsites.add("MasterOW");
-        owsites.add("OW Tracker");
+        owsites.add("Forums and Discussions");
+        owsites.add("Guides");
+        owsites.add("Stat Tracking");
+
         List<String> wowsites = new ArrayList<>();
         wowsites.add("Game Site");
-        wowsites.add("Reddit");
-        wowsites.add("MMO Champion");
-        wowsites.add("Noxxic");
-        wowsites.add("GamePedia");
+        wowsites.add("Forums and Discussions");
+        wowsites.add("Walkthrough and Class Guides");
+
         List<String> dotasites = new ArrayList<>();
         dotasites.add("Store Link");
         dotasites.add("Steam Market");
         dotasites.add("Forums and Discussions");
         dotasites.add("Guides and Hero Builds");
         dotasites.add("Dota2 Gambling/Betting");
+
         List<String> R6sites = new ArrayList<>();
         R6sites.add("Ubisoft Game Page");
-        R6sites.add("Reddit");
-        R6sites.add("R6Tracker");
-        R6sites.add("R6Stats");
-        R6sites.add("ESL Gaming");
+        R6sites.add("Forums and Discussions");
+        R6sites.add("Guides");
+        R6sites.add("Stat Tracking");
+
         List<String> bo4sites = new ArrayList<>();
         bo4sites.add("Forums and Discussions");
         bo4sites.add("Track your BO4 Stats");
+
         List<String> mcsites = new ArrayList<>();
         mcsites.add("Mojang Site");
         mcsites.add("Forums and Discussions");
-        mcsites.add("Totorials and Guides");
+        mcsites.add("Tutorials and Guides");
         mcsites.add("Modding");
+
         List<String> fifasites = new ArrayList<>();
         fifasites.add("EA Game Link");
         fifasites.add("Forums and Discussions");
@@ -265,40 +254,37 @@ public class MainActivity extends AppCompatActivity {
         fifasites.add("FUT Stat Tracking");
 
         List<String> smashsites = new ArrayList<>();
-        smashsites.add("Game Site");
-        smashsites.add("Reddit");
-        smashsites.add("Tier List");
-        smashsites.add("IGN Wiki");
-        smashsites.add("Guides");
+        smashsites.add("Forums and Discussions");
+        smashsites.add("Guides and Tier Lists");
 
 
-        listhash.put(listDataHeader.get(0), asosites);
-        listhash.put(listDataHeader.get(1), bf5sites);
-        listhash.put(listDataHeader.get(2), bo4sites);
-        listhash.put(listDataHeader.get(3), csgosites);
-        listhash.put(listDataHeader.get(4), ds3sites);
-        listhash.put(listDataHeader.get(5), dest2sites);
-        listhash.put(listDataHeader.get(6), dotasites);
-        listhash.put(listDataHeader.get(7), fc5sites);
-        listhash.put(listDataHeader.get(8), fifasites);
-        listhash.put(listDataHeader.get(9), fortsites);
-        listhash.put(listDataHeader.get(10), gowsites);
-        listhash.put(listDataHeader.get(11), gtavsites);
-        listhash.put(listDataHeader.get(12), hssites);
-        listhash.put(listDataHeader.get(13), lolsites);
-        listhash.put(listDataHeader.get(14), mad19sites);
-        listhash.put(listDataHeader.get(15), mcsites);
-        listhash.put(listDataHeader.get(16), nba19sites);
-        listhash.put(listDataHeader.get(17), nhl19sites);
+        listhash.put(listDataHeader.get(0), apexsites);
+        listhash.put(listDataHeader.get(1), asosites);
+        listhash.put(listDataHeader.get(2), bf5sites);
+        listhash.put(listDataHeader.get(3), bo4sites);
+        listhash.put(listDataHeader.get(4), csgosites);
+        listhash.put(listDataHeader.get(5), ds3sites);
+        listhash.put(listDataHeader.get(6), dest2sites);
+        listhash.put(listDataHeader.get(7), dotasites);
+        listhash.put(listDataHeader.get(8), fc5sites);
+        listhash.put(listDataHeader.get(9), fifasites);
+        listhash.put(listDataHeader.get(10), fortsites);
+        listhash.put(listDataHeader.get(11), gowsites);
+        listhash.put(listDataHeader.get(12), gtavsites);
+        listhash.put(listDataHeader.get(13), hssites);
+        listhash.put(listDataHeader.get(14), lolsites);
+        listhash.put(listDataHeader.get(15), mad19sites);
+        listhash.put(listDataHeader.get(16), mcsites);
+        listhash.put(listDataHeader.get(17), nba19sites);
         listhash.put(listDataHeader.get(18), pubgsites);
         listhash.put(listDataHeader.get(19), owsites);
         listhash.put(listDataHeader.get(20), R6sites);
         listhash.put(listDataHeader.get(21), reddeadsites);
         listhash.put(listDataHeader.get(22), RLsites);
         listhash.put(listDataHeader.get(23), smashsites);
-        listhash.put(listDataHeader.get(24), smosites);
-        listhash.put(listDataHeader.get(25), warframesites);
-        listhash.put(listDataHeader.get(26), wowsites);
+        listhash.put(listDataHeader.get(24), wowsites);
+
+
 
 
     }

@@ -23,7 +23,7 @@ public class DS3Guides extends AppCompatActivity {
         data = new String[]{"Reddit","IGN Wiki", "DS3 Wiki","Guides","PvE Build Guides", "Boss Guide"};
         final ListView listView = (ListView)findViewById(R.id.ds3glist);
 
-        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, data);
+        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, R.layout.listviewblack, data);
         listView.setAdapter(adapter);
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override

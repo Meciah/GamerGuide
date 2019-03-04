@@ -24,7 +24,7 @@ public class FifaGuides extends AppCompatActivity {
         data = new String[]{"FUT Head","FIFA U Team","Essential Tips"};
         final ListView listView = (ListView) findViewById(R.id.fifaglist);
 
-        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, R.layout.listviewtextwhite, data);
+        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, R.layout.listviewblack, data);
         listView.setAdapter(adapter);
         listView.setDivider(new ColorDrawable(0xFFFFFFFF));
         listView.setDividerHeight(1);

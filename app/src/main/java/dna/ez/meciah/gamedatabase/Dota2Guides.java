@@ -26,7 +26,7 @@ public class Dota2Guides extends AppCompatActivity {
 
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, R.layout.custom_textview, data);
         listView.setAdapter(adapter);
-        listView.setDivider(new ColorDrawable(0xFFFFFFFF));
+        listView.setDivider(new ColorDrawable(0xFFFF0000));
         listView.setDividerHeight(1);
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override

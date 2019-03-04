@@ -171,7 +171,7 @@
     <string-array name="maddengLink">
         <item>https://www.ea.com/games/madden-nfl/madden-nfl-19/strategy-guide</item>
         <item>https://www.madden-school.com/</item>
-        <item>https://www.ign.com/wikis/madden-nfl-19/Tips_&_Tricks</item>
+        <item>https://www.androidcentral.com/madden-nfl-19-tips-and-tricks</item>
         <item>https://www.gameinformer.com/the-sports-desk/2018/08/13/the-madden-19-ultimate-team-guide</item>
         <item>https://gamingbolt.com/madden-nfl-19-mega-guide-farming-coins-leveling-up-ultimate-team-guide-solo-battles-and-more</item>
     </string-array>
@@ -197,6 +197,170 @@
         <item>https://minecraft.curseforge.com/mc-mods</item>
         <item>https://www.planetminecraft.com/resources/mods/</item>
         <item>http://www.9minecraft.net/category/minecraft-mods/</item>
+    </string-array>
+    <string-array name="nbafLink">
+        <item>https://www.reddit.com/r/NBA2k/wiki/2k19</item>
+        <item>https://forums.2k.com/forumdisplay.php?214-NBA-2K</item>
+        <item>https://forums.operationsports.com/forums/nba-2k-basketball/</item>
+        <item>https://2kgamer.com/</item>
+        <item>https://2kmtcentral.com/forums</item>
+    </string-array>
+    <string-array name="nbagLink">
+        <item>https://www.usgamer.net/articles/18-12-2018-nba-2k19-tips-and-tricks-guide</item>
+        <item>https://www.usgamer.net/articles/18-12-2018-nba-2k19-tips-and-tricks-guide/scoring-points-easily</item>
+        <item>https://www.usgamer.net/articles/18-12-2018-nba-2k19-tips-and-tricks-guide/my-career-guide</item>
+        <item>https://realsport101.com/news/sports/nba/nba-2k19-mycareer-tips-and-guide-for-beginners/</item>
+        <item>https://www.reddit.com/r/NBA2k/comments/9eadlc/my_mycareer_tips_for_casual_gamers/</item>
+    </string-array>
+    <string-array name="pubgfLink">
+        <item>https://www.reddit.com/r/PUBATTLEGROUNDS/</item>
+        <item>https://forums.pubg.com/</item>
+        <item>https://steamcommunity.com/app/578080/discussions/</item>
+        <item>https://www.thetechgame.com/Forums/f=296/prefix=pubg/gaming-discussion.html</item>
+    </string-array>
+    <string-array name="pubggLink">
+        <item>https://www.rockpapershotgun.com/2019/01/04/playerunknowns-battlegrounds-guide-tips-and-tricks-to-win-in-pubg/</item>
+        <item>https://www.metabomb.net/pubg/gameplay-guides/pubg-guide-10</item>
+        <item>https://www.polygon.com/pubg-playerunknowns-battlegrounds-guide</item>
+        <item>https://www.gamesradar.com/playerunknowns-battlegrounds-pubg-guide-tips/</item>
+    </string-array>
+    <string-array name="owfLink">
+        <item>https://www.reddit.com/r/Overwatch/</item>
+        <item>https://us.forums.blizzard.com/en/overwatch/</item>
+        <item>https://blizztrack.com/forums/overwatch</item>
+        <item>https://playoverwatch.com/en-us/news/patch-notes/pc/</item>
+    </string-array>
+    <string-array name="owgLink">
+        <item>https://www.metabomb.net/overwatch/hero-guides</item>
+        <item>https://www.metabomb.net/overwatch/gameplay-guides/overwatch-beginners-guide-26</item>
+        <item>https://www.icy-veins.com/overwatch/</item>
+        <item>https://overwatch.guide/</item>
+    </string-array>
+    <string-array name="owsLink">
+        <item>https://www.overbuff.com/</item>
+        <item>https://overwatchtracker.com/</item>
+        <item>https://masteroverwatch.com/</item>
+        <item>https://www.omnicmeta.com/stats/</item>
+        <item>https://overwatch.op.gg/</item>
+    </string-array>
+    <string-array name="r6fLink">
+        <item>https://www.reddit.com/r/Rainbow6/</item>
+        <item>https://forums.ubi.com/forumdisplay.php/717-General-Discussion</item>
+        <item>https://steamcommunity.com/app/359550/discussions/</item>
+        <item>https://forum.eslgaming.com/categories/rainbow-six-english</item>
+    </string-array>
+    <string-array name="r6gLink">
+        <item>https://www.rockpapershotgun.com/2019/02/11/rainbow-six-siege-guide-tips-and-tricks-to-win-matches-y4s1-announcement/</item>
+        <item>https://www.pcgamer.com/rainbow-six-siege-operators/</item>
+        <item>https://www.ign.com/wikis/rainbow-six-siege/Tips_and_Tricks</item>
+        <item>https://www.gamesradar.com/rainbow-six-siege-operators-guide/</item>
+    </string-array>
+    <string-array name="r6sLink">
+        <item>https://r6.tracker.network/</item>
+        <item>https://r6stats.com/</item>
+        <item>https://r6db.com/</item>
+        <item>https://siege.gg/</item>
+        <item>https://steamcharts.com/app/359550</item>
+    </string-array>
+    <string-array name="rdfLink">
+        <item>https://www.reddit.com/r/reddeadredemption/</item>
+        <item>https://gtaforums.com/forum/405-red-dead-redemption-2/</item>
+        <item>https://www.rdr2.org/forums/</item>
+        <item>https://www.trueachievements.com/game/Red-Dead-Redemption-2/forum</item>
+        <item>https://www.ign.com/boards/forums/red-dead-redemption.6186/</item>
+    </string-array>
+    <string-array name="rdsgLink">
+        <item>https://www.ign.com/wikis/red-dead-redemption-2/</item>
+        <item>https://www.ign.com/wikis/red-dead-redemption-2/Walkthrough</item>
+        <item>https://www.polygon.com/red-dead-redemption-2-guide</item>
+        <item>https://www.usgamer.net/articles/12-02-2019-red-dead-redemption-2-guide</item>
+        <item>https://gamefaqs.gamespot.com/ps4/200179-red-dead-redemption-2/faqs</item>
+    </string-array>
+    <string-array name="rdmgLink">
+        <item>https://www.gamesradar.com/red-dead-online-guide-walkthrough/</item>
+        <item>https://www.vg247.com/2019/01/10/red-dead-online-guide-tips-tricks/</item>
+        <item>https://www.polygon.com/red-dead-online-guide/2018/11/27/18114976/beginners-guide-rdr2-showdown-posse-camp-honor-xp-ability-cards-horse-insurance</item>
+        <item>https://www.redbull.com/au-en/red-dead-redemption-tips-for-playing-multiplayer</item>
+    </string-array>
+    <string-array name="rlfLink">
+        <item>https://www.reddit.com/r/RocketLeague/</item>
+        <item>https://psyonix.com/forum/index.php</item>
+        <item>https://steamcommunity.com/app/252950/discussions/0/</item>
+        <item>https://www.trueachievements.com/game/Rocket-League/forum</item>
+        <item>https://support.rocketleague.com/hc/en-us</item>
+    </string-array>
+    <string-array name="rlgLink">
+        <item>https://www.reddit.com/r/RocketLeague/comments/3y73om/huge_link_list_for_beginners_and_advanced_players/</item>
+        <item>https://www.polygon.com/rocket-league/2016/8/5/12382680/rocket-league-guide</item>
+        <item>https://steamcommunity.com/sharedfiles/filedetails/?id=1279228348</item>
+        <item>https://guides.gamepressure.com/rocketleague/</item>
+        <item>https://gamefaqs.gamespot.com/ps4/200179-red-dead-redemption-2/faqs</item>
+    </string-array>
+    <string-array name="rltLink">
+        <item>https://www.rocketprices.com/</item>
+        <item>https://www.rltprices.com/</item>
+        <item>https://rl.insider.gg/</item>
+        <item>https://rl-trades.com/</item>
+        <item>https://rocket-league.com/trading</item>
+        <item>https://rltracker.pro/trades</item>
+        <item>https://traderflip.com/market/rocket-league</item>
+        <item>https://steamcommunity.com/app/252950/tradingforum/</item>
+        <item>https://discordapp.com/invite/tradecentral</item>
+        <item>https://www.aoeah.com/rocket-league-items</item>
+        <item>https://www.lolga.com/rocket-league</item>
+        <item>https://www.g2g.com/rocket-league/item-23797-23798</item>
+        <item>https://www.playerauctions.com/rocket-league-items/</item>
+        <item>https://www.mmogah.com/rocket-league-items</item>
+    </string-array>
+    <string-array name="smashfLink">
+        <item>https://www.reddit.com/r/SmashBrosUltimate/</item>
+        <item>https://smashboards.com/categories/super-smash-bros-ultimate.578/</item>
+        <item>https://smashboards.com/forums/ultimate-character-discussion.587/</item>
+        <item>https://gamefaqs.gamespot.com/boards/234547-super-smash-bros-ultimate</item>
+        <item>https://www.neoseeker.com/f/smashultimate/</item>
+    </string-array>
+    <string-array name="smashgLink">
+        <item>https://www.polygon.com/super-smash-bros-ultimate-guide</item>
+        <item>https://www.ign.com/wikis/super-smash-bros-ultimate/</item>
+        <item>https://www.usgamer.net/articles/08-01-19-super-smash-bros-ultimate-tips-best-starter-characters-controls</item>
+        <item>https://www.ign.com/wikis/super-smash-bros-ultimate/Tier_Lists</item>
+        <item>https://www.eurogamer.net/articles/2019-01-28-super-smash-bros-ultimate-tier-list-6005</item>
+        <item>https://www.inverse.com/article/52593-smash-ultimate-tier-list-best-character-is-peach</item>
+        <item>https://allgamers.com/article/6845/super-smash-bros-ultimate-tier-list</item>
+    </string-array>
+    <string-array name="wowfLink">
+        <item>https://www.reddit.com/r/wow/</item>
+        <item>https://battle.net/forums/wow/</item>
+        <item>https://worldofwarcraft.com/</item>
+        <item>https://www.wowhead.com/forums</item>
+    </string-array>
+    <string-array name="wowgLink">
+        <item>https://www.wowhead.com/guides</item>
+        <item>https://www.wowhead.com/class-guides</item>
+        <item>https://www.icy-veins.com/wow/class-guides</item>
+        <item>https://www.noxxic.com/wow/</item>
+        <item>https://www.ownedcore.com/forums/world-of-warcraft/world-of-warcraft-guides/</item>
+        <item>https://www.inverse.com/article/52593-smash-ultimate-tier-list-best-character-is-peach</item>
+        <item>https://wow.gamepedia.com/Guides</item>
+        <item>https://overgear.com/guides/wow/</item>
+    </string-array>
+    <string-array name="apexfLink">
+        <item>https://www.reddit.com/r/apexlegends/</item>
+        <item>https://answers.ea.com/t5/General-Discussion/bd-p/apex-legends-general-discussion-en</item>
+        <item>https://www.polygon.com/red-dead-online-guide/2018/11/27/18114976/beginners-guide-rdr2-showdown-posse-camp-honor-xp-ability-cards-horse-insurance</item>
+        <item>https://www.redbull.com/au-en/red-dead-redemption-tips-for-playing-multiplayer</item>
+    </string-array>
+    <string-array name="apexgLink">
+        <item>https://www.rockpapershotgun.com/2019/02/25/apex-legends-guide-beginners-tips-and-tricks-how-to-play/</item>
+        <item>https://www.ea.com/games/apex-legends/news/apex-legends-beginners-guide-tips-and-tricks</item>
+        <item>https://www.polygon.com/apex-legends-guide</item>
+        <item>https://www.digitaltrends.com/gaming/apex-legends-character-guide-classes-abilities-and-tier-list/</item>
+        <item>https://www.pcgamer.com/apex-legends-tier-list/</item>
+    </string-array>
+    <string-array name="apexsLink">
+        <item>https://apex.tracker.gg/</item>
+        <item>https://apextab.com/</item>
+        <item>https://www.ign.com/wikis/apex-legends/How_to_See_Your_Stats</item>
     </string-array>
 
 

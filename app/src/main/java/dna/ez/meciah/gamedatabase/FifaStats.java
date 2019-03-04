@@ -24,7 +24,7 @@ public class FifaStats extends AppCompatActivity {
         data = new String[]{"FUT Head","FUT Wiz","FUT Chief","FUT Bin","FUT Watch"};
         final ListView listView = (ListView) findViewById(R.id.fifaslist);
 
-        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, R.layout.listviewtextwhite, data);
+        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, R.layout.listviewblack, data);
         listView.setAdapter(adapter);
         listView.setDivider(new ColorDrawable(0xFFFFFFFF));
         listView.setDividerHeight(1);
