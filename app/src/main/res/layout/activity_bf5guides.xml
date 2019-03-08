@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".BF5guides"
-    android:background="@drawable/bf5">
+    android:background="@drawable/bf52">
 
     <ListView
         android:id="@+id/bf5glist"

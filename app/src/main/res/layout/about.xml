@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="dna.ez.meciah.gamedatabase.AboutActivity"
-    android:background="@drawable/rl2">
+    android:background="@drawable/rl3">
 
     <TextView
         android:id="@+id/about_text"
@@ -62,7 +62,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="92dp"
+        android:layout_marginBottom="108dp"
         android:fontFamily="monospace"
         android:text="EMAIL: meciah8@gmail.com"
         android:textAllCaps="false"

@@ -24,7 +24,7 @@ public class RDForums extends AppCompatActivity {
         data = new String[]{"Reddit", "GTA Forums", "RDR2 Forums", "TrueAchievement Forums", "IGN Boards"};
         final ListView listView = (ListView) findViewById(R.id.rdflist);
 
-        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, R.layout.listviewtextwhite, data);
+        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, R.layout.custom_textview, data);
         listView.setAdapter(adapter);
         listView.setDivider(new ColorDrawable(0xFFFF0000));
         listView.setDividerHeight(1);

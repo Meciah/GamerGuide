@@ -11,6 +11,10 @@ import android.widget.CompoundButton;
 import android.widget.ExpandableListView;
 import android.widget.Switch;
 
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.MobileAds;
+
 import dna.ez.meciah.gamedatabase.R;
 
 import java.util.ArrayList;
@@ -26,6 +30,7 @@ public class MainActivity extends AppCompatActivity {
     private List<String> listDataHeader;
     private HashMap<String, List<String>> listhash;
 
+    private AdView mAdView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -42,6 +47,7 @@ public class MainActivity extends AppCompatActivity {
         listAdapter = new ExpandableListAdapter(this, listDataHeader, listhash);
         listView.setAdapter(listAdapter);
 
+
         Switch toggle = (Switch) findViewById(R.id.theme_switch);
         toggle.setChecked(useDarkTheme);
         toggle.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
@@ -50,6 +56,12 @@ public class MainActivity extends AppCompatActivity {
                 toggleTheme(isChecked);
             }
         });
+
+        MobileAds.initialize(this, "ca-app-pub-1567793437239298~6871643222");
+        mAdView = findViewById(R.id.adView);
+        AdRequest adRequest = new AdRequest.Builder().build();
+        mAdView.loadAd(adRequest);
+
     }
 
     @Override

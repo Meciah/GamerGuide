@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".R6Stats"
-    android:background="@drawable/r62">
+    android:background="@drawable/a8f3f4dc76fd5769d51d5e7777d756ce">
 
     <ListView
         android:id="@+id/r6slist"

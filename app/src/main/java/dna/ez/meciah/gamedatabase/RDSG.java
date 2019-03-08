@@ -24,7 +24,7 @@ public class RDSG extends AppCompatActivity {
         data = new String[]{"IGN Wiki", "IGN Walkthrough", "Polygon", "USGamer", "GameFaqs"};
         final ListView listView = (ListView) findViewById(R.id.rdsglist);
 
-        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, R.layout.listviewtextwhite, data);
+        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, R.layout.custom_textview, data);
         listView.setAdapter(adapter);
         listView.setDivider(new ColorDrawable(0xFFFFFFFF));
         listView.setDividerHeight(1);

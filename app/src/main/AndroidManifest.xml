@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="dna.ez.meciah.gamedatabase"
-    android:versionCode="3"
-    android:versionName="1.0020">
+    android:versionCode="5"
+    android:versionName="1.0040">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application
         android:allowBackup="true"
@@ -188,6 +189,9 @@
         <activity
             android:name=".FeedbackActivity"
             android:parentActivityName=".MainActivity" />
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-1567793437239298~6871643222"/>
     </application>
 
 </manifest>
